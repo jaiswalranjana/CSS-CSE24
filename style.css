@@ -1,0 +1,47 @@
+p{
+    color:red;
+    background-color:grey;
+    text-align:right;
+    font-size:25px;
+    padding:20px;
+}
+
+
+.jk{
+   color:blue; 
+   background-color:aquamarine;
+   text-align:center;
+   font-size:18px;
+   
+}
+
+/* body{
+    background-color:aqua;
+    /* text-align:left; 
+    
+} */
+
+
+#rj{
+    color:pink;
+    background-color:bisque;
+    /* text-align */
+
+}
+
+div{
+    font-size:100px;
+     height:300px;
+     width:600px;
+    background-color: red;
+    border:50 solid black;
+    padding:10px;
+    margin:50px;
+     /* border:1px solid black; */
+/* top / bottom /  */
+
+/* style // solid , dashed , dotted , double etc */
+
+
+
+}
