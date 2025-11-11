@@ -1,0 +1,35 @@
+
+/* * is universal selector */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    display:flex ;
+    border:3px solid black;
+    height:200px;
+    width:350px;
+    flex-direction:column;
+    /* flex-wrap:wrap; */
+    flex-flow:row-reverse;
+    /* text-align: ; */
+    justify-content:space-between;
+    align-items:first baseline;
+    align-content: space-between;
+    /* gap:10px; row-gap coloumn-gap */
+    gap:10px;
+
+
+
+
+}
+
+.item{
+    height:50px;
+    width:100px;
+    border:1px solid red;
+    background-color: brown;
+    
+}
