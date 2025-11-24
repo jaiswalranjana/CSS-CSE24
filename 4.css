@@ -9,20 +9,33 @@
 .container{
     display:flex ;
     border:3px solid black;
-    height:200px;
-    width:350px;
-    flex-direction:column;
-    /* flex-wrap:wrap; */
+    height:600px;
+    width:1200px;
+    flex-direction:row-reverse;
+    flex-wrap:wrap-reverse;
     flex-flow:row-reverse;
     /* text-align: ; */
     justify-content:space-between;
     align-items:first baseline;
-    align-content: space-between;
+    /* align-content: space-between; */
     /* gap:10px; row-gap coloumn-gap */
     gap:10px;
+    /* flex-wrap: wrap; 3 wrap AND WRAP reverse */
+    flex-wrap: wrap;
+    /* main axis and cross axis  */
+    justify-content:space-between;
+    /* main axis horizontal start flex end center space btw sppace around 
+     */
+    flex-flow:wrap;
 
 
+    align-items:stretch;
 
+    /* align-content: baseline; */
+
+    gap:10px;
+
+    
 
 }
 
@@ -31,5 +44,19 @@
     width:100px;
     border:1px solid red;
     background-color: brown;
+    /* order zero by default if want to chnage sequence use order 
+     */
+     /* order: */
+     flex-grow: 1;
     
+
+    
+}
+
+
+.item4{
+    /* order:-1; */
+    flex-grow: 2;
+    /* flex-shrink: ; */
+     align-self:flex-end;
 }
